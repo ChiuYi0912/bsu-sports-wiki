@@ -3,34 +3,28 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  // -----------------------------------------------------------
-  // 1. 网站基本信息 (修改这里)
-  // -----------------------------------------------------------
-  title: '汇聚大众智慧的体育知识库', // <--- 修改：你的网站名字
-  tagline: '热血 | 激情 | 冠军', // <--- 修改：你的口号
+
+  title: 'Be Stronger. Be Smarter',
+  tagline: '热血 | 激情 | 冠军',
   favicon: 'img/favicon.ico',
 
   future: {
     v4: true,
   },
 
-  // -----------------------------------------------------------
-  // 2. 部署关键配置 (★★★ 最重要，必须修改 ★★★)
-  // -----------------------------------------------------------
 
-  // 修改：你的 GitHub Pages 域名
   url: 'https://ChiuYi0912.github.io',
 
-  // 保持你刚才改对的设置
+
   baseUrl: '/bsu-sports-wiki/',
 
-  // 修改：你的 GitHub 用户名 (不要留 facebook)
+
   organizationName: 'ChiuYi0912',
 
-  // 修改：你的仓库名 (不要留 docusaurus)
+
   projectName: 'bsu-sports-wiki',
 
-  // -----------------------------------------------------------
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
