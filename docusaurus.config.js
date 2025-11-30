@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 
-  title: 'Be Stronger. Be Smarter',
+  title: '属于体育人的开源阵地',
   tagline: '热血 | 激情 | 冠军',
   favicon: 'img/favicon.ico',
 
